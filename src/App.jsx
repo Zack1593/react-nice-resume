@@ -33,8 +33,8 @@ function App() {
         <Header data={resumeData.main} />
         <About data={resumeData.main} />
         <Resume data={resumeData.resume} />
-        <Portfolio data={resumeData.portfolio} />
-        <Contact data={resumeData.main} />
+        {/*<Portfolio data={resumeData.portfolio} />*/}
+        {/*<Contact data={resumeData.main} />*/}
         <Footer data={resumeData.main} />
       </div>
   );

@@ -51,7 +51,7 @@ function Resume({ data }) {
 
   return (
     <section id="resume">
-      <Slide direction="left" duration={1300}>
+      <Slide direction="left" duration={500}>
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -67,7 +67,7 @@ function Resume({ data }) {
         </div>
       </Slide>
 
-      <Slide direction="left" duration={1300}>
+      <Slide direction="left" duration={500}>
         <div className="row work">
           <div className="three columns header-col">
             <h1>
@@ -79,7 +79,7 @@ function Resume({ data }) {
         </div>
       </Slide>
 
-      <Slide direction="left" duration={1300}>
+      <Slide direction="left" duration={500}>
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
